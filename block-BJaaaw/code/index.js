@@ -7,9 +7,34 @@
   - `if` the number is odd print the message "number is odd"
 */
 
+// const num =prompt(`Enter a number:  `);
+// if (num % 2 == 0 ){
+//   alert(`Number Is Even`);
+// }
+//  else if (num %2 !== 0){
+//   alert(`Number Is Odd`); 
+// }
+
+
 // 2. Write a program to accept two numbers from user using`prompt` and alert the max value.
 
+// const number1 = prompt(`Enter First number`);
+// const number2 = prompt(`Enter Second number`);
+
+// if (number1 === number2){
+//   alert(`Both NUmbers are equal`)
+// } else if(number1>number2){
+//   alert(`First number is greater`)
+// } else if(number1<number2){
+//   alert(`Second number is greater`)
+// }
+
+
 // 3. Convert the above code using`?` terniary operator
+
+// number1<number2?
+// alert(`Number2 is greater`):
+// alert(`Number1 is greater`)
 
 /*
 4. Write a program that asks the user for the house name and check the following conditions:
@@ -19,7 +44,20 @@
   - `else` print the message " All men must die"
 */
 
+
+// const houseName = prompt(`Enter your House Name: `)
+
+// if(houseName===`stark`){
+//   alert(`Winter is coming`);
+// } else if (houseName===`lannister`){
+//   alert(`A Lannister always pays his debt`)
+// } else{
+//   alert(`All men must die`)
+// }
+
 // 5. Convert the above code using`?` terniary operator
+// const houseName2 = prompt(`Enter your house name :`)
+// houseName2===`stark`?alert(`Winter is coming`) : houseName2===`lannister`?alert(`A Lannister always pays his debt`) : alert(`All men must die`)
 
 // Switch
 
