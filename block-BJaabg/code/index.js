@@ -14,5 +14,19 @@ const ACCESSORY_PRICE = 9.99;
 var bank_balance = 303.91;
 var amount = 0;
 // your code goes here
+while(bank_balance >= amount){
+    amount = amount + PHONE_PRICE;
+    if(SPENDING_THRESHOLD > amount){
+        amount = amount + ACCESSORY_PRICE;
+    }
+} 
 
+let tax = amount * TAX_RATE ;
+let taxedRate = amount + tax;
+console.log(`$${taxedRate}`)
+if(taxedRate<=bank_balance){
+    console.log(`you can afford`);
+}else {
+    console.log(`you can't afford`)
+}
 // ⛑ Answer of the above will `$334.76`.
